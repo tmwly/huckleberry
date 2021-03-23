@@ -10,3 +10,105 @@ body {
 }
 
 /* Add styles here! */
+
+h1 {
+  margin:0;
+  padding:0;
+  font-size:1.25em;
+  font-weight:normal;
+  font-weight: bold;
+}
+
+
+main {
+  border-top: 8px solid hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%, 60%);
+  padding-top:96px;
+  padding-bottom:96px;
+
+}
+
+header strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+header {
+  padding-top:40px;
+  font-size: 1.5em;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  width: max-content;
+  margin: 0px;
+  margin-left: -32px;
+  padding: 16px 32px;
+
+}
+
+.card {
+  background-color:  hsl(0deg, 0%, 100%);;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.card p {
+  font-size: 1.25em;
+}
+
+.max-width-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  min-width:128px;
+  max-width: 768px;
+}
+
+.intro-chunk {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  max-width: 70%;
+  font-size: 1.25em;
+}
+
+
+
+/* desktop */
+/* @media only screen and (min-width: 992px) {
+  .indented-heading {
+    margin-left: -32px;
+  
+  }  
+} */
+
+@media only screen and (min-width: 768px)  and (max-width: 992px){
+  .intro-chunk {
+    max-width: 80%;
+  }
+}  
+
+@media only screen and (max-width: 767px) {
+  .intro-chunk {
+    max-width: 80%;
+  }
+
+  header {
+    font-size: 1em;
+  }
+  title {
+    font-size: 1.25em;
+  }
+
+  .indented-heading {
+    max-width: 90%;
+  }
+
+
+} 
